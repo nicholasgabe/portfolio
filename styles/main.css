@@ -69,6 +69,10 @@ body {
   margin-bottom: 75px;
 }
 
+.portrait {
+  border-radius: 10px;
+}
+
 .designs {
   padding-top: 60px;
   padding-bottom: 75px;
@@ -108,9 +112,14 @@ body {
 }
 
 .button {
-    padding: 10px;
-    font-size: 30px;
-    color: #ffffff;
-    text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
+.soon-container {
+  padding: 300px;
+  text-align: center;
+
+}
