@@ -20,75 +20,6 @@ body {
     font-family: "Aboreto", serif;
 }
 
-.banner {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  background: url('../images/Background.png') no-repeat center center/cover;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  font-family: "Inter", serif;
-}
-
-.banner h1 {
-  font-size: 4.5rem;
-  margin: 0;
-  color: #152c40;
-  font-weight: bold;
-}
-
-.banner h2 {
-  font-size: 2.0rem;
-  margin: 0;
-  color: #396080;
-}
-
-.bg-container {
-  background-color: #BAC9D0;
-  padding-top: 95px;
-  padding-bottom: 100px;
-}
-
-.about {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-.portrait {
-  border-radius: 10px;
-}
-
-.designs {
-  padding-top: 60px;
-  padding-bottom: 75px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.carousel {
-  max-width: 350px;
-  margin: 0 auto;
-}
-
-.designs-header {
-  margin-bottom: 30px;
-}
-
 .footer {
   position: relative;
   width: 100%;
@@ -121,5 +52,4 @@ body {
 .soon-container {
   padding: 300px;
   text-align: center;
-
 }
