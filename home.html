@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nicholas Gabella</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="icon" type="image/x-icon" href="images/Logo-White.png">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Darker+Grotesque:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -14,17 +15,17 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Nicholas Gabella</a>
+        <a class="navbar-brand" href="home.html">Nicholas Gabella</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-3 gap-4">
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="#about">About</a>
-            </li>
+            </li>-->
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <!--<li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -59,7 +60,18 @@
       </div>
       <div class="bg-container">
         <div class="container text-center">
-          <h1 id="projects">React Native Projects</h1>
+          <h1 class="projects-header">Most Recent Project</h1>
+          <div class="card">
+            <img src="/images/NotEnoughSalt.png" alt="Not Enough Salt">
+            <div class="card-content">
+                <p class="card-title">Not Enough Salt</p>
+                <p>The Not Enough Salt project was a group effort to create a cooking website that would simplify and streamline online recipes. The design displayed shows a preview of the home page. We took inspiration from the idea of “grandma's cooking” and we wanted to bring that to life with the design.</p>
+            </div>
+          </div>
+          <div class="button-container">
+            <a href="projects.html" class="projects-button">View More</a>
+          </div>
+          <!--<h1 id="projects">React Native Projects</h1>
           <br />
           <p class="fs-5">Throughout the semester, I worked on various labs and projects that gave me a better understanding of React and React Native. Additionally, working in a new language increased my debugging and troubleshooting skills. When making these applications, I had several issues with inconsistencies in my component naming. As a result, my applications wouldn't render any content. I realized I kept having the same issue so I knew how to fix it easily.</p>
           <br />
@@ -70,9 +82,8 @@
                 <div class="card-body">
                   <h5 class="card-title">To-Do App</h5>
                   <p class="card-text">A simple application that allows users to create a functioning To-Do list. The app lets them add tasks, check off tasks, and remove tasks.</p>
-                  <!--<hr>
-                  <p class="card-text">I used React/React Native to bring this application to life. I also had some difficulty with getting the tasks to show up when the user input information. The problem was fixed by properly routing the button to push the input.</p>-->
-                  <!--<a href="#" class="btn btn-primary">More Details</a>-->
+                  <hr>
+                  <a href="#" class="btn btn-primary">More Details</a>
                 </div>
               </div>
             </div>
@@ -82,9 +93,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Exercise App</h5>
                   <p class="card-text">This application is used for tracking exercises. Users can pick one of the various exercises and either focus on repetition or duration.</p>
-                  <!--<hr>
-                  <p class="card-text">React Native was used to make this application. When making this app, I had an issue with the content not displaying on the page entirely. After some inspection, I realized it was just an inconsistency in my component names.</p>-->
-                  <!--<a href="#" class="btn btn-primary">More Details</a>-->
+                  <hr>
+                  <a href="#" class="btn btn-primary">More Details</a>
                 </div>
               </div>
             </div>
@@ -94,13 +104,12 @@
                 <div class="card-body">
                   <h5 class="card-title">Quiz App</h5>
                   <p class="card-text">A quiz application designed to administer a functional quiz. Users can answer questions and receive their graded score upon completion.</p>
-                  <!--<hr>
-                  <p class="card-text">When making this application, I used React Native. </p>-->
-                  <!--<a href="#" class="btn btn-primary">More Details</a>-->
+                  <hr>
+                  <a href="#" class="btn btn-primary">More Details</a>
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
       <div class="container designs text-center">
