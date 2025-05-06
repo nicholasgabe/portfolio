@@ -13,83 +13,130 @@
       </style>
   </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Nicholas Gabella</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-3 gap-4">
-              <!--<li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>-->
-              <li class="nav-item">
-                <a class="nav-link" href="">Projects</a>
-              </li>
-              <!--<li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>-->
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Nicholas Gabella</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-3 gap-4">
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="">My Work</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="banner">
+    <div class="overlay">
+      <h1>My Work</h1>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="card">
+      <img class="card-image" src="images/NotEnoughSalt.png" alt="Not Enough Salt">
+        <div class="card-content">
+          <p class="card-title">Not Enough Salt</p>
+          <p>The Not Enough Salt project was a group effort to create a cooking website that would simplify and streamline online recipes. We took inspiration from the idea of “grandma's cooking” and we wanted to bring that to life with the design. To view the full design check it out on Figma, or visit the live site!</p>
+          <div class="icons row">
+            <p class="icon"><a href="https://www.figma.com/proto/Q6iu3VRrk4JvA27SAUEua9/NotEnoughSalt-Copy?node-id=1-6&p=f&t=Zlh5fzbpqBo0QV7g-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6" target="_blank"><img src="images/Figma Light.svg" alt="Figma Logo"></a></p>
+            <p class="icon"><a href="https://not-enough-salt.vercel.app/" target="_blank"><img src="images/Web Light.svg" alt="Internet Icon"></a></p>
           </div>
         </div>
-    </nav>
-    <div class="banner">
-        <div class="overlay">
-          <h1>Projects</h1>
+    </div>
+
+    <!--<div class="card" onclick="openModal('To-do App', '/videos/project3.mp4')">
+      <img src="images/ToDoApp.png" alt="To-do App">
+      <div class="card-content">
+          <p class="card-title">To-do App</p>
+          <p>A simple application that allows users to create a functioning To-Do list. The app lets them add tasks, check off tasks, and remove tasks.</p>
+      </div>
+    </div>-->
+
+    <div class="card">
+      <img class="card-image" src="images/StudyQuick.png" alt="Study Quick">
+      <div class="card-content">
+        <p class="card-title">Study Quick</p>
+        <p>Study Quick is a mobile flashcard app that lets users create, study, and share custom sets. The design is intentionally neutral in color to help users focus entirely on their study content. It's inspired by the feel of taking notes—featuring a handwritten font and a pencil-on-paper color scheme. To view the full design, check it out on Figma!</p>
+        <div class="icons">
+          <p class="icon"><a href="https://www.figma.com/proto/jmHdZWTkwqKnhesaVc68oD/Mobile-Designs?node-id=25-57&t=DITirA4w2Ff32ziU-1&scaling=scale-down&content-scaling=fixed&page-id=14%3A47&starting-point-node-id=25%3A57" target="_blank"><img src="images/Figma Light.svg" alt="Figma Logo"></a></p>
         </div>
       </div>
-      <div class="gallery">
-        <div class="card" onclick="openModal('Not Enough Salt', '/videos/project1.mp4')">
-            <img src="images/NotEnoughSalt.png" alt="Not Enough Salt">
-            <div class="card-content">
-                <p class="card-title">Not Enough Salt</p>
-                <p>The Not Enough Salt project was a group effort to create a cooking website that would simplify and streamline online recipes. The design displayed shows a preview of the home page. We took inspiration from the idea of “grandma's cooking” and we wanted to bring that to life with the design.</p>
-            </div>
-        </div>
-        <div class="card" onclick="openModal('To-do App', '/videos/project3.mp4')">
-            <img src="images/ToDoApp.png" alt="To-do App">
-            <div class="card-content">
-                <p class="card-title">To-do App</p>
-                <p>A simple application that allows users to create a functioning To-Do list. The app lets them add tasks, check off tasks, and remove tasks.</p>
-            </div>
-        </div>
-        <div class="card" onclick="openModal('Exercise App', '/videos/project4.mp4')">
-            <img src="images/ExerciseApp.png" alt="Exercise App">
-            <div class="card-content">
-                <p class="card-title">Exercise App</p>
-                <p>This application is used for tracking exercises. Users can pick one of the various exercises and either focus on repetition or duration.</p>
-            </div>
-        </div>
-        <div class="card" onclick="openModal('Quiz App', '/videos/project5.mp4')">
-            <img src="images/QuizApp.png" alt="Quiz App">
-            <div class="card-content">
-                <p class="card-title">Quiz App</p>
-                <p>A quiz application designed to administer a functional quiz. Users can answer questions and receive their graded score upon completion.</p>
-            </div>
-        </div>
     </div>
-    
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <h2 id="modal-title"></h2>
-            <video id="modal-video" controls></video>
-            <button class="close-btn" onclick="closeModal()">Close</button>
+
+    <div class="card">
+      <img class="card-image" src="images/FitNik.png" alt="FitNik">
+      <div class="card-content">
+        <p class="card-title">FitNik</p>
+        <p>FitNik is a mobile workout app designed to help users track their exercises with ease. It offers a variety of workouts across different categories, including cardio, flexibility, and strength. Users can choose between repetition-based or duration-based exercises depending on their fitness goals. The app features a vibrant, energetic design that motivates users to stay active. To view the full design, check it out on Figma!</p>
+        <div class="icons">
+          <p class="icon"><a href="https://www.figma.com/proto/jmHdZWTkwqKnhesaVc68oD/Mobile-Designs?node-id=10-35&t=YXykf36uVgh5e9Dr-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A35" target="_blank"><img src="images/Figma Light.svg" alt="Figma Logo"></a></p>
         </div>
+      </div>
     </div>
-      <footer class="footer">
-        <div class="container-fluid d-flex justify-content-between align-items-end">
-          <div class="socials">
-            <h2>Socials</h2>
-            <!--<p class="fs-5"><a href="#">Instagram</a></p>-->
-            <p class="fs-5"><a href="http://www.linkedin.com/in/nicholas-gabella-67638826b"><img src="images/LinkedIn.svg" alt="LinkedIn logo"></a></p>
-          </div>
-          <div class="back-to-top">
-            <a href="#" class="button">Back to Top <img src="images/Arrow up.svg" alt="Arrow Up"></a>
+  </div>
+
+  <div class="bg-container">
+    <div class="react-projects text-center">  
+      <h1 id="projects">React Native Projects</h1>
+      <br />
+      <p class="fs-5 native-desc">During my time at UCF, I worked on several labs and projects that helped me better understand React and React Native. These experiences taught me how to build components, manage state, and design reusable interfaces. Working in a new programming language also improved my debugging and troubleshooting skills, helping me fix issues more quickly and write more reliable code.
+
+      <div class="row">
+        <div class="col-12 col-md-4 projects-gap">
+          <div class="card">
+            <img src="images/ToDoApp.gif" class="card-img" alt="Short video of the To-do App.">
+            <div class="card-body">
+              <h5 class="card-title">To-Do App</h5>
+              <p class="card-text">A simple application that allows users to create a functioning To-Do list. The app lets them add tasks, check off tasks, and remove tasks.</p>
+            </div>
           </div>
         </div>
-      </footer>
-    <script src="js/projects.js"></script>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+        <div class="col-12 col-md-4 projects-gap">
+          <div class="card">
+            <img src="images/ExerciseApp.gif" class="card-img" alt="Short video of the Exercise App.">
+            <div class="card-body">
+              <h5 class="card-title">Exercise App</h5>
+              <p class="card-text">This application is used for tracking exercises. Users can pick one of the various exercises and either focus on repetition or duration.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="images/QuizApp.gif" class="card-img" alt="Short video of the Quiz App.">
+            <div class="card-body">
+              <h5 class="card-title">Quiz App</h5>
+              <p class="card-text">A quiz application designed to administer a functional quiz. Users can answer questions and receive their graded score upon completion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid d-flex justify-content-between align-items-end">
+      <div class="socials">
+        <h2>Socials</h2>
+        <!--<p class="fs-5"><a href="#">Instagram</a></p>-->
+        <p class="fs-5"><a href="http://www.linkedin.com/in/nicholas-gabella-67638826b"><img src="images/LinkedIn.svg" alt="LinkedIn logo"></a></p>
+      </div>
+      <div class="back-to-top">
+        <a href="#" class="button">Back to Top <img src="images/Arrow up.svg" alt="Arrow Up"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
