@@ -76,6 +76,29 @@
     transition: transform 0.3s ease;
 }
 
+.email-design {
+    margin: 0 auto;
+    max-width: fit-content;
+    text-align: center;
+    height: 550px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #152c40;
+    img {
+        width: 750px;
+    }
+}
+
+.email-desc {
+    padding: 20px;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .bg-container {
     background-color: #BAC9D0;
     padding-top: 95px;
@@ -84,6 +107,8 @@
 
 .react-projects {
     margin: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .native-desc {
@@ -101,6 +126,13 @@
         height: 300px;
         object-fit: cover;
     }
+
+    .email-design {
+    height: 450px;
+    img {
+        width: 450px;
+    }
+}
 
     .react-projects {
         margin: 50px;
